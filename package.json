@@ -67,10 +67,7 @@
     "storybook": "^7.4.5",
     "webpack": "^5.88.2"
   },
-  "main": "lib/index.js",
-  "module": "lib/index.esm.js",
-  "types": "lib/index.d.ts",
-  "workspaces": [
-    "cs-component-library"
-]
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "types": "build/index.d.ts"
 }

@@ -16,12 +16,22 @@ export default [{
     {
       file: packageJson.main,
       format: "cjs",
-      sourcemap: true
+      sourcemap: true,
+      exports: 'named',
+      globals: {
+        react: 'React',
+        'react-dom': 'ReactDOM'
+      },
     },
     {
       file: packageJson.module,
       format: "esm",
-      sourcemap: true
+      sourcemap: true,
+      globals: {
+        react: 'React',
+        'react-dom': 'ReactDOM'
+      },
+      exports: 'named'
     }
   ],
   plugins: [

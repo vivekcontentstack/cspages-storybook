@@ -1,22 +1,22 @@
-import { Header } from './Header';
+import React from 'react';
+import C001 from './C001'
+import C002 from './C002'
 
 export default {
   title: 'Example/Header',
-  component: Header,
-  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/react/writing-docs/autodocs
   tags: ['autodocs'],
+  component: C001,
   parameters: {
-    // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
 };
 
 export const LoggedIn = {
-  args: {
-    user: {
-      name: 'Jane Doe',
-    },
-  },
+  render: (args)=>(<C001 {...args} />),
+  args: {}
 };
 
-export const LoggedOut = {};
+export const LoggedOut = {
+  render: (args)=>(<C002 {...args} />),
+  args: {}
+}

@@ -40,8 +40,15 @@ export default [{
     commonjs(),
     typescript({ tsconfig: './tsconfig.json' }),
     postcss({
-      extensions: ['.css']
-    })
+      config: {
+        path: './postcss.config.js',
+      },
+      extensions: ['.css'],
+      minimize: true,
+      inject: {
+        insertAt: 'top',
+      },
+    }),
   ]
 }, {
   input: 'build/index.d.ts',

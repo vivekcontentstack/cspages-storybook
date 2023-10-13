@@ -89,24 +89,6 @@ const C001 = () => {
     )
 }
 
-C001.propRequire = {
-    title: '',
-    features: [{
-        feat_title: '',
-        feat_desc: '',
-        feat_icon: ''
-    }, 12],
-    user_info: {
-        age: '',
-        addr: {
-            type: '',
-            pincode: ['', 1]
-        },
-        files: [{
-            file_no: '',
-            file_type: { is_deleted: '', is_video: '' }
-        },4]
-    }
-}
+
 
 export default C001;

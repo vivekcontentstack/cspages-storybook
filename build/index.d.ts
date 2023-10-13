@@ -1,6 +1,12 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-declare const C001: () => react_jsx_runtime.JSX.Element;
+declare const C001: {
+    (): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        title: number;
+        desc: number;
+    };
+};
 
 declare const C002: () => react_jsx_runtime.JSX.Element;
 

@@ -89,4 +89,9 @@ const C001 = () => {
     )
 }
 
+C001.propRequire = {
+    title: 200,
+    desc: 500
+}
+
 export default C001;

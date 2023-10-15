@@ -3,7 +3,7 @@ import C001 from './C001'
 import C002 from './C002'
 
 export default {
-  title: 'Example/Header',
+  title: 'Example/Footer',
   tags: ['autodocs'],
   component: C001,
   parameters: {

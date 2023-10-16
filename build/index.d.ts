@@ -8,27 +8,27 @@ type HeaderProps = {
     logoSrc?: string;
 };
 
-declare const C001$4: {
-    ({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
-    propRequire: {
+declare function C001$4({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace C001$4 {
+    var propRequire: {
         features: (number | {
             title: string;
             href: string;
         })[];
         logoSrc: string;
     };
-};
+}
 
-declare const C002$4: {
-    ({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
-    propRequire: {
+declare function C002$4({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace C002$4 {
+    var propRequire: {
         features: (number | {
             title: string;
             href: string;
         })[];
         logoSrc: string;
     };
-};
+}
 
 declare namespace index_d$4 {
   export { C001$4 as C001, C002$4 as C002 };

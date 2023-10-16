@@ -2,7 +2,7 @@ import React from "react";
 import { RequireProps, data } from './defaultValue';
 import { HeaderProps } from "./types";
 
-const C002 = ({ features = data.features, logoSrc = data.logoSrc }: HeaderProps) => {
+function C002({ features = data.features, logoSrc = data.logoSrc }: HeaderProps) {
     const [isOpened, setOpen] = React.useState(false)
     return (
         <header className="pb-6 bg-white lg:pb-0">

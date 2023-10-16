@@ -18,19 +18,12 @@ export default [{
       format: "cjs",
       sourcemap: true,
       exports: 'named',
-      globals: {
-        react: 'React',
-        'react-dom': 'ReactDOM'
-      },
+     
     },
     {
       file: packageJson.module,
       format: "esm",
       sourcemap: true,
-      globals: {
-        react: 'React',
-        'react-dom': 'ReactDOM'
-      },
       exports: 'named'
     }
   ],

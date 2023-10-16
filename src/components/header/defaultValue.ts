@@ -1,9 +1,8 @@
 import { HeaderProps } from "./types";
 
 export const RequireProps = {
-    title: '',
     features: [{
-        title: '',
+        title: '10',
         href: ''
     }, 12],
     logoSrc: ''

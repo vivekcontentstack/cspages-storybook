@@ -2,11 +2,11 @@ import { FaqProps } from "./types";
 
 export const RequireProps = {
     queries: [{
-        title: '',
-        description: ''
+        title: '20',
+        description: '150'
     }, 4],
-    title: '',
-    description: '',
+    title: '30',
+    description: '150',
     contactLink: ''
 }
 

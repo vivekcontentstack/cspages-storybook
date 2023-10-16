@@ -1,12 +1,12 @@
 import { CallToActionProps } from "./types";
 
 export const RequireProps = {
-    shortTitle:'',
-    title:'',
-    description: '',
+    shortTitle:'50',
+    title:'75',
+    description: '150',
     items:[{
-        title: '',
-        subtitle: ''
+        title: '15',
+        subtitle: '15'
     }, 4]
 }
 

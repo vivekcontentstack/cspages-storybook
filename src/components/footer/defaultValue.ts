@@ -2,23 +2,23 @@ import { FooterProps } from "./types";
 
 export const RequireProps = {
     company: [{
-        title: '',
+        title: '20',
         link: ''
     }, 4],
     resource: [{
-        title: '',
-        link: ''
+        title: '20',
+        link: '20'
     }, 4],
     extraLinks: [{
-        title: '',
+        title: '20',
         link: ''
     }, 4],
     help: [{
-        title: '',
+        title: '20',
         link: ''
     }, 4],
     logoSrc: '',
-    description: '',
+    description: '150',
 }
 
 export const data: FooterProps = {

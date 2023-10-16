@@ -1,7 +1,13 @@
 import { FeatureProps } from "./types";
 
 export const RequireProps = {
-
+    shortTitle:'',
+    title:'',
+    description: '',
+    items:[{
+        title: '',
+        description: ''
+    }, 4]
 }
 
 export const data: FeatureProps = {

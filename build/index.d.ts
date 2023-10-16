@@ -25,72 +25,31 @@ declare namespace index_d$4 {
 type FooterProps = {
     logoSrc?: string;
     description?: string;
-    socialLinks?: Array<{
-        link: string;
-        type: "facebook" | "twitter" | "instagram" | "github";
-    }>;
-    company?: {
-        title: string;
-        link: string;
-    }[];
-    help?: {
-        title: string;
-        link: string;
-    }[];
-    resource?: {
-        title: string;
-        link: string;
-    }[];
-    extraLinks?: {
-        title: string;
-        link: string;
-    }[];
+    socialLinks?: string[];
+    company?: string[];
+    help?: string[];
+    resource?: string[];
+    extraLinks?: string[];
 };
 
 declare const C001$3: {
-    ({ logoSrc, description, socialLinks, company, help, resource, extraLinks }: FooterProps): react_jsx_runtime.JSX.Element;
+    ({ description, company, help, resource, extraLinks }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
-        company: (number | {
-            title: string;
-            link: string;
-        })[];
-        resource: (number | {
-            title: string;
-            link: string;
-        })[];
-        extraLinks: (number | {
-            title: string;
-            link: string;
-        })[];
-        help: (number | {
-            title: string;
-            link: string;
-        })[];
-        logoSrc: string;
+        company: (string | number)[];
+        resource: (string | number)[];
+        extraLinks: (string | number)[];
+        help: (string | number)[];
         description: string;
     };
 };
 
 declare const C002$3: {
-    ({ logoSrc, description, socialLinks, company, help }: FooterProps): react_jsx_runtime.JSX.Element;
+    ({ description, socialLinks, company, help }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
-        company: (number | {
-            title: string;
-            link: string;
-        })[];
-        resource: (number | {
-            title: string;
-            link: string;
-        })[];
-        extraLinks: (number | {
-            title: string;
-            link: string;
-        })[];
-        help: (number | {
-            title: string;
-            link: string;
-        })[];
-        logoSrc: string;
+        company: (string | number)[];
+        resource: (string | number)[];
+        extraLinks: (string | number)[];
+        help: (string | number)[];
         description: string;
     };
 };

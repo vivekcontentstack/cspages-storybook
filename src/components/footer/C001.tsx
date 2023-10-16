@@ -2,9 +2,7 @@ import { RequireProps, data } from './defaultValue';
 import { FooterProps } from './types';
 
 const C001 = ({
-    logoSrc = data.logoSrc,
     description = data.description,
-    socialLinks = data.socialLinks,
     company = data.company,
     help = data.help,
     resource= data.resource,
@@ -15,7 +13,7 @@ const C001 = ({
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
                     <div className="col-span-2 md:col-span-4 xl:pr-8">
-                        <img className="w-auto h-9" src={logoSrc} alt="" />
+                        <img className="w-auto h-9" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
 
                         <p className="text-base leading-relaxed text-gray-600 mt-7">{description}</p>
 
@@ -34,7 +32,7 @@ const C001 = ({
                             {company && company.map((each, idx) => {
                                 return (
                                     <li key={idx}>
-                                        <a href={each.link} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each.title}</a>
+                                        <a href={each} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each}</a>
                                     </li>
                                 )
                             })}
@@ -48,7 +46,7 @@ const C001 = ({
                             {help && help.map((each, idx) => {
                                 return (
                                     <li key={idx}>
-                                        <a href={each.link} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each.title}</a>
+                                        <a href={each} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each}</a>
                                     </li>
                                 )
                             })}
@@ -62,7 +60,7 @@ const C001 = ({
                         {resource && resource.map((each, idx) => {
                                 return (
                                     <li key={idx}>
-                                         <a href={each.link} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each.title} </a>
+                                         <a href={each} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each} </a>
                                     </li>
                                 )
                             })}
@@ -77,7 +75,7 @@ const C001 = ({
                         {extraLinks && extraLinks.map((each, idx) => {
                                 return (
                                     <li key={idx}>
-                                           <a href={each.link} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each.title}</a>
+                                           <a href={each} title="" className="flex text-sm text-gray-800 transition-all duration-200 hover:text-orange-600 focus:text-orange-600"> {each}</a>
                                     </li>
                                 )
                             })}

@@ -1,69 +1,29 @@
 import { FooterProps } from "./types";
 
 export const RequireProps = {
-    company: [{
-        title: '20',
-        link: ''
-    }, 4],
-    resource: [{
-        title: '20',
-        link: '20'
-    }, 4],
-    extraLinks: [{
-        title: '20',
-        link: ''
-    }, 4],
-    help: [{
-        title: '20',
-        link: ''
-    }, 4],
-    logoSrc: '',
-    description: '150',
-}
+  company: ["", 4],
+  resource: ["", 4],
+  extraLinks: ["", 4],
+  help: ["", 4],
+  description: "150",
+};
 
 export const data: FooterProps = {
-    logoSrc : "https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg",
-    description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    socialLinks:[
-        {
-            link: "",
-            type: "facebook"
-        },
-        {
-            link: "",
-            type: "twitter",
-        },
-        {
-            link: "",
-            type: "github"
-        },
-        {
-            link: "",
-            type: "instagram"
-        },
-    ],
-    company: [
-        {title: "About", link: "#"},
-        {title: "Features", link: "#"},
-        {title: "Works", link: "#"},
-        {title: "Career", link: "#"},
-    ],
-    resource: [
-        {title: "Free eBooks", link: "#"},
-        {title: "how to Blog", link: "#"},
-        {title: "Develop", link: "#"},
-        {title: "Youtube playlist", link: "#"},
-    ],
-    extraLinks: [
-        {title: "Customer Support", link: "#"},
-        {title: "Delivery Details", link: "#"},
-        {title: "Terms & Conditions", link: "#"},
-        {title: "Privacy Policy", link: "#"},
-    ],
-    help: [
-        {title: "Customer Support", link: "#"},
-        {title: "Delivery Details", link: "#"},
-        {title: "Terms & Conditions", link: "#"},
-        {title: "Privacy Policy", link: "#"},
-    ]
-}
+  description:
+    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+  socialLinks: ["facebook", "twitter", "github", "instagram"],
+  company: ["About", "Features", "Works", "Career"],
+  resource: ["Free eBooks", "how to Blog", "Develop", "Youtube playlist"],
+  extraLinks: [
+    "Customer Support",
+    "Delivery Details",
+    "Terms & Conditions",
+    "Privacy Policy",
+  ],
+  help: [
+    "Customer Support",
+    "Delivery Details",
+    "Terms & Conditions",
+    "Privacy Policy",
+  ],
+};

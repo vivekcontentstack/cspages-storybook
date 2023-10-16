@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { HeaderProps } from "./types";
+import React from "react";
 import { RequireProps, data } from './defaultValue';
+import { HeaderProps } from "./types";
 
 const C001 = ({ features = data.features, logoSrc = data.logoSrc }: HeaderProps) => {
-    const [isOpened, setOpen] = useState(false)
+    const [isOpened, setOpen] = React.useState(false)
     return (
         <header>
             {/* <!-- lg+ --> */}

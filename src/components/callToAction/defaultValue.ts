@@ -7,7 +7,7 @@ export const RequireProps = {
     items:[{
         title: '15',
         subtitle: '15'
-    }, 4]
+    }, 3]
 }
 
 export const data: CallToActionProps = {

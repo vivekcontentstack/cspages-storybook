@@ -7,7 +7,9 @@ const config: StorybookConfig = {
     // "../src/components/button/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../src/components/header/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../src/components/footer/*.stories.@(js|jsx|mjs|ts|tsx)",
-    "../src/components/faq/*.stories.@(js|jsx|mjs|ts|tsx)"
+    "../src/components/faq/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../src/components/feature/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../src/components/callToAction/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   addons: [
     "@storybook/addon-links",

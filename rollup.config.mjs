@@ -1,51 +1,52 @@
-import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
+import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
-import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import postcss from "rollup-plugin-postcss";
 
-import { createRequire } from 'node:module';
+import { createRequire } from "node:module";
 const requireFile = createRequire(import.meta.url);
-const packageJson = requireFile('./package.json');
+const packageJson = requireFile("./package.json");
 
-
-export default [{
-  input: "src/index.ts",
-  output: [
-    {
-      file: packageJson.main,
-      format: "cjs",
-      sourcemap: true,
-      exports: 'named',
-     
-    },
-    {
-      file: packageJson.module,
-      format: "esm",
-      sourcemap: true,
-      exports: 'named'
-    }
-  ],
-  plugins: [
-    peerDepsExternal(),
-    resolve(),
-    commonjs(),
-    typescript({ tsconfig: './tsconfig.json' }),
-    postcss({
-      config: {
-        path: './postcss.config.js',
+export default [
+  {
+    input: "src/index.ts",
+    output: [
+      {
+        file: packageJson.main,
+        format: "cjs",
+        sourcemap: true,
+        exports: "named",
       },
-      extensions: ['.css'],
-      minimize: true,
-      inject: {
-        insertAt: 'top',
+      {
+        file: packageJson.module,
+        format: "esm",
+        sourcemap: true,
+        exports: "named",
       },
-    }),
-  ]
-}, {
-  input: 'build/index.d.ts',
-  output: [{ file: 'build/index.d.ts', format: 'es' }],
-  plugins: [dts()],
-  external: [/\.css$/]
-}];
+    ],
+    plugins: [
+      peerDepsExternal(),
+      resolve(),
+      commonjs(),
+      typescript({ tsconfig: "./tsconfig.json" }),
+      postcss({
+        config: {
+          path: "./postcss.config.js",
+        },
+        extensions: [".css"],
+        minimize: true,
+        inject: {
+          insertAt: "top",
+        },
+      }),
+    ],
+  },
+  {
+    input: "build/index.d.ts",
+    output: [{ file: "build/index.d.ts", format: "es" }],
+    plugins: [dts()],
+    external: ["react", "react-dom", /\.css$/],
+  },
+];

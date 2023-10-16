@@ -1,32 +1,20 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
 type HeaderProps = {
-    features: Array<{
-        title: string;
-        href?: string;
-    }>;
-    logoSrc?: string;
+    menu: string[];
 };
 
-declare function C001$4({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare function C001$4({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
 declare namespace C001$4 {
     var propRequire: {
-        features: (number | {
-            title: string;
-            href: string;
-        })[];
-        logoSrc: string;
+        menu: (string | number)[];
     };
 }
 
-declare function C002$4({ features, logoSrc }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare function C002$4({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
 declare namespace C002$4 {
     var propRequire: {
-        features: (number | {
-            title: string;
-            href: string;
-        })[];
-        logoSrc: string;
+        menu: (string | number)[];
     };
 }
 

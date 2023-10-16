@@ -1,7 +1,7 @@
 import React from "react";
 import { RequireProps, data } from './defaultValue';
 import { HeaderProps } from "./types";
-function C001({ features = data.features, logoSrc = data.logoSrc }: HeaderProps) {
+function C001({ menu = data.menu }: HeaderProps) {
     const [isOpened, setOpen] = React.useState(false)
     return (
         <header>
@@ -10,9 +10,9 @@ function C001({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
                 <div className="px-4 mx-auto sm:px-6 lg:px-8">
                     <nav className="relative flex items-center justify-between h-16 lg:h-20">
                         <div className="hidden lg:flex lg:items-center lg:space-x-10">
-                            {features.map((eachFeature, idx) => {
+                            {menu.map((eachFeature, idx) => {
                                 return (
-                                    <a key={idx} href={eachFeature.href} title="" className="text-base font-medium text-black"> {eachFeature.title} </a>
+                                    <a key={idx} href={eachFeature.toLowerCase()} title="" className="text-base font-medium text-black"> {eachFeature} </a>
                                 )
                             })}
                         </div>
@@ -20,7 +20,7 @@ function C001({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
                         <div className="lg:absolute lg:-translate-x-1/2 lg:inset-y-5 lg:left-1/2">
                             <div className="flex-shrink-0">
                                 <a href="#" title="" className="flex">
-                                    <img className="w-auto h-8 lg:h-10" src={logoSrc} alt="" />
+                                    <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -67,9 +67,9 @@ function C001({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
 
                     <div className="mt-6">
                         <div className="flex flex-col space-y-2">
-                            {features.map((eachFeature, idx) => {
+                            {menu.map((eachFeature, idx) => {
                                 return (
-                                    <a key={idx} href={eachFeature.href} title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> {eachFeature.title}</a>
+                                    <a key={idx} href={eachFeature.toLowerCase()} title="" className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"> {eachFeature}</a>
                                 )
                             })}
                         </div>

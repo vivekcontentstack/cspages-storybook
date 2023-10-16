@@ -2,7 +2,7 @@ import React from "react";
 import { RequireProps, data } from './defaultValue';
 import { HeaderProps } from "./types";
 
-function C002({ features = data.features, logoSrc = data.logoSrc }: HeaderProps) {
+function C002({ menu = data.menu }: HeaderProps) {
     const [isOpened, setOpen] = React.useState(false)
     return (
         <header className="pb-6 bg-white lg:pb-0">
@@ -11,7 +11,7 @@ function C002({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
                 <nav className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
                         <a href="#" title="" className="flex">
-                            <img className="w-auto h-8 lg:h-10" src={logoSrc} alt="" />
+                            <img className="w-auto h-8 lg:h-10" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
                         </a>
                     </div>
 
@@ -26,8 +26,8 @@ function C002({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
                     </button>
 
                     <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-                    {features.map((eachFeature, idx) => {
-                                return (<a key={idx} href={eachFeature.href} title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> {eachFeature.title} </a>) 
+                    {menu.map((eachFeature:any, idx:any) => {
+                        return (<a key={idx} href={eachFeature.toLowerCase()} title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> {eachFeature} </a>) 
                     })}
                     </div>
 
@@ -38,9 +38,9 @@ function C002({ features = data.features, logoSrc = data.logoSrc }: HeaderProps)
                 {isOpened && <nav className="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
                     <div className="flow-root">
                         <div className="flex flex-col px-6 -my-2 space-y-1">
-                        {features.map((eachFeature, idx) => {
+                        {menu.map((eachFeature, idx) => {
                                 return (
-                                    <a href={eachFeature.href} title="" className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> {eachFeature.title} </a>
+                                    <a key={idx} href={eachFeature.toLowerCase()} title="" className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> {eachFeature} </a>
                                     ) 
                     })}
                         </div>

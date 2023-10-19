@@ -23,7 +23,7 @@ declare const C001$4: {
     };
 };
 
-declare const C002$4: {
+declare const C002$5: {
     ({ title, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -36,8 +36,21 @@ declare const C002$4: {
     };
 };
 
+declare const C002$4: {
+    ({ title, description, queries, contactLink }: FaqProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        queries: (number | {
+            title: string;
+            description: string;
+        })[];
+        title: string;
+        description: string;
+        contactLink: string;
+    };
+};
+
 declare namespace index_d$4 {
-  export { C001$4 as Faq_C001, C002$4 as Faq_C002 };
+  export { C001$4 as Faq_C001, C002$5 as Faq_C002, C002$4 as Faq_C003 };
 }
 
 type FeatureProps = {
@@ -112,8 +125,19 @@ declare const C002$2: {
     };
 };
 
+declare const C003$2: {
+    ({ description, socialLinks, company, help, extraLinks, resource }: FooterProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        company: (string | number)[];
+        resource: (string | number)[];
+        extraLinks: (string | number)[];
+        help: (string | number)[];
+        description: string;
+    };
+};
+
 declare namespace index_d$2 {
-  export { C001$2 as Footer_C001, C002$2 as Footer_C002 };
+  export { C001$2 as Footer_C001, C002$2 as Footer_C002, C003$2 as Footer_C003 };
 }
 
 type HeaderProps = {
@@ -174,7 +198,7 @@ declare const C002: {
     };
 };
 
-declare const C003: {
+declare const C003$1: {
     ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -187,8 +211,21 @@ declare const C003: {
     };
 };
 
+declare const C003: {
+    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
 declare namespace index_d {
-  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003 as CallToAction_C003 };
+  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003$1 as CallToAction_C003, C003 as CallToAction_C004 };
 }
 
 export { index_d as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header };

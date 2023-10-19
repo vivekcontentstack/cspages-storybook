@@ -1,6 +1,6 @@
-import { ProductProps } from './types';
+import { CallToActionProps } from './types';
 declare const C003: {
-    ({}: ProductProps): import("react/jsx-runtime").JSX.Element;
+    ({ title, description, }: CallToActionProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         shortTitle: string;
         title: string;

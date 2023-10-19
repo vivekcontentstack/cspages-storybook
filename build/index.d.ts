@@ -10,7 +10,7 @@ type FaqProps = {
     contactLink?: string;
 };
 
-declare const C001$3: {
+declare const C001$4: {
     ({ title, description, contactLink, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -23,7 +23,7 @@ declare const C001$3: {
     };
 };
 
-declare const C002$3: {
+declare const C002$4: {
     ({ title, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -36,8 +36,8 @@ declare const C002$3: {
     };
 };
 
-declare namespace index_d$3 {
-  export { C001$3 as C001, C002$3 as C002 };
+declare namespace index_d$4 {
+  export { C001$4 as Faq_C001, C002$4 as Faq_C002 };
 }
 
 type FeatureProps = {
@@ -50,7 +50,7 @@ type FeatureProps = {
     }>;
 };
 
-declare const C001$2: {
+declare const C001$3: {
     ({ shortTitle: title, items, }: FeatureProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -63,7 +63,7 @@ declare const C001$2: {
     };
 };
 
-declare const C002$2: {
+declare const C002$3: {
     ({ shortTitle, title, description, items, }: FeatureProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -76,8 +76,8 @@ declare const C002$2: {
     };
 };
 
-declare namespace index_d$2 {
-  export { C001$2 as C001, C002$2 as C002 };
+declare namespace index_d$3 {
+  export { C001$3 as Feature_C001, C002$3 as Feature_C002 };
 }
 
 type FooterProps = {
@@ -90,7 +90,7 @@ type FooterProps = {
     extraLinks?: string[];
 };
 
-declare const C001$1: {
+declare const C001$2: {
     ({ description, company, help, resource, extraLinks }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -101,7 +101,7 @@ declare const C001$1: {
     };
 };
 
-declare const C002$1: {
+declare const C002$2: {
     ({ description, socialLinks, company, help }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -112,32 +112,83 @@ declare const C002$1: {
     };
 };
 
-declare namespace index_d$1 {
-  export { C001$1 as C001, C002$1 as C002 };
+declare namespace index_d$2 {
+  export { C001$2 as Footer_C001, C002$2 as Footer_C002 };
 }
 
 type HeaderProps = {
     menu: string[];
 };
 
-declare function C001({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
-declare namespace C001 {
+declare function C001$1({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace C001$1 {
     var propRequire: {
         menu: (string | number)[];
     };
 }
 
-declare function C002({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
-declare namespace C002 {
+declare function C002$1({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace C002$1 {
     var propRequire: {
         menu: (string | number)[];
     };
 }
 
-declare const index_d_C001: typeof C001;
-declare const index_d_C002: typeof C002;
+declare namespace index_d$1 {
+  export { C001$1 as Header_C001, C002$1 as Header_C002 };
+}
+
+type CallToActionProps = {
+    title?: string;
+    description?: string;
+    shortTitle?: string;
+    items?: Array<{
+        title: string;
+        subtitle: string;
+    }>;
+};
+
+declare const C001: {
+    ({ title, description, items }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const C002: {
+    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const C003: {
+    ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
 declare namespace index_d {
-  export { index_d_C001 as C001, index_d_C002 as C002 };
+  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003 as CallToAction_C003 };
 }
 
-export { index_d$3 as Faq, index_d$2 as Feature, index_d$1 as Footer, index_d as Header };
+export { index_d as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header };

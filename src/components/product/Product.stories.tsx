@@ -1,7 +1,6 @@
 import React from 'react';
 import C001 from './C001'
 import C002 from './C002'
-import C003 from './C003'
 
 export default {
   title: 'Example/Product',
@@ -22,7 +21,4 @@ export const Comp002 = {
   args: {}
 }
 
-export const Comp003 = {
-  render: (args)=>(<C003 {...args} />),
-  args: {}
-}
+

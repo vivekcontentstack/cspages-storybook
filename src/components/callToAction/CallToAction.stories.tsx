@@ -2,6 +2,7 @@ import React from 'react';
 import C001 from './C001'
 import C002 from './C002'
 import C003 from './C003'
+import C004 from './C004'
 
 export default {
   title: 'Example/CallToAction',
@@ -24,5 +25,10 @@ export const Comp002 = {
 
 export const Comp003 = {
   render: (args)=>(<C003 {...args} />),
+  args: {}
+}
+
+export const Comp004 = {
+  render: (args)=>(<C004 {...args} />),
   args: {}
 }

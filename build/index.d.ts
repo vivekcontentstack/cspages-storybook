@@ -1,5 +1,73 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
+type CallToActionProps = {
+    title?: string;
+    description?: string;
+    shortTitle?: string;
+    items?: Array<{
+        title: string;
+        subtitle: string;
+    }>;
+};
+
+declare const CallToAction_C001: {
+    ({ title, description, items }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const CallToAction_C002: {
+    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const CallToAction_C003$1: {
+    ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const CallToAction_C003: {
+    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+    propRequire: {
+        shortTitle: string;
+        title: string;
+        description: string;
+        items: (number | {
+            title: string;
+            subtitle: string;
+        })[];
+    };
+};
+
+declare const index_d$5_CallToAction_C001: typeof CallToAction_C001;
+declare const index_d$5_CallToAction_C002: typeof CallToAction_C002;
+declare namespace index_d$5 {
+  export { index_d$5_CallToAction_C001 as CallToAction_C001, index_d$5_CallToAction_C002 as CallToAction_C002, CallToAction_C003$1 as CallToAction_C003, CallToAction_C003 as CallToAction_C004 };
+}
+
 type FaqProps = {
     title?: string;
     description?: string;
@@ -23,7 +91,7 @@ declare const Faq_C001: {
     };
 };
 
-declare const C002$2: {
+declare const Faq_C002$1: {
     ({ title, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -36,7 +104,7 @@ declare const C002$2: {
     };
 };
 
-declare const C002$1: {
+declare const Faq_C002: {
     ({ title, description, queries, contactLink }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -51,7 +119,7 @@ declare const C002$1: {
 
 declare const index_d$4_Faq_C001: typeof Faq_C001;
 declare namespace index_d$4 {
-  export { index_d$4_Faq_C001 as Faq_C001, C002$2 as Faq_C002, C002$1 as Faq_C003 };
+  export { index_d$4_Faq_C001 as Faq_C001, Faq_C002$1 as Faq_C002, Faq_C002 as Faq_C003 };
 }
 
 type FeatureProps = {
@@ -64,7 +132,7 @@ type FeatureProps = {
     }>;
 };
 
-declare const C001$1: {
+declare const Feature_C001: {
     ({ shortTitle: title, items, }: FeatureProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -90,9 +158,10 @@ declare const Feature_C002: {
     };
 };
 
+declare const index_d$3_Feature_C001: typeof Feature_C001;
 declare const index_d$3_Feature_C002: typeof Feature_C002;
 declare namespace index_d$3 {
-  export { C001$1 as Feature_C001, index_d$3_Feature_C002 as Feature_C002 };
+  export { index_d$3_Feature_C001 as Feature_C001, index_d$3_Feature_C002 as Feature_C002 };
 }
 
 type FooterProps = {
@@ -169,70 +238,39 @@ declare namespace index_d$1 {
   export { index_d$1_Header_C001 as Header_C001, index_d$1_Header_C002 as Header_C002 };
 }
 
-type CallToActionProps = {
+type ProductProps = {
     title?: string;
     description?: string;
-    shortTitle?: string;
-    items?: Array<{
+    products?: {
         title: string;
-        subtitle: string;
-    }>;
+        description?: string;
+    }[];
 };
 
-declare const C001: {
-    ({ title, description, items }: CallToActionProps): react_jsx_runtime.JSX.Element;
+declare const Product_C001: {
+    ({ title, description, products }: ProductProps): react_jsx_runtime.JSX.Element;
     propRequire: {
-        shortTitle: string;
-        title: string;
         description: string;
-        items: (number | {
+        products: (number | {
             title: string;
-            subtitle: string;
         })[];
     };
 };
 
-declare const C002: {
-    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
+declare const Product_C002: {
+    ({ title, description, products }: ProductProps): react_jsx_runtime.JSX.Element;
     propRequire: {
-        shortTitle: string;
-        title: string;
         description: string;
-        items: (number | {
+        products: (number | {
             title: string;
-            subtitle: string;
         })[];
     };
 };
 
-declare const C003: {
-    ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
-    propRequire: {
-        shortTitle: string;
-        title: string;
-        description: string;
-        items: (number | {
-            title: string;
-            subtitle: string;
-        })[];
-    };
-};
-
-declare const CallToAction_C003: {
-    ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
-    propRequire: {
-        shortTitle: string;
-        title: string;
-        description: string;
-        items: (number | {
-            title: string;
-            subtitle: string;
-        })[];
-    };
-};
-
+declare const index_d_Product_C001: typeof Product_C001;
+declare const index_d_Product_C002: typeof Product_C002;
 declare namespace index_d {
-  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003 as CallToAction_C003, CallToAction_C003 as CallToAction_C004 };
+  export { index_d_Product_C001 as Product_C001, index_d_Product_C002 as Product_C002 };
 }
 
-export { index_d as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header };
+export { index_d$5 as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header, index_d as Products };

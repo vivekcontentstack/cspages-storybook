@@ -1,5 +1,5 @@
 import { CallToActionProps } from './types';
-declare const C002: {
+declare const CallToAction_C002: {
     ({ title, description, }: CallToActionProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -11,4 +11,4 @@ declare const C002: {
         })[];
     };
 };
-export default C002;
+export default CallToAction_C002;

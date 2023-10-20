@@ -1,5 +1,5 @@
 import { FeatureProps } from './types';
-declare const C001: {
+declare const Feature_C001: {
     ({ shortTitle: title, items, }: FeatureProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -11,4 +11,4 @@ declare const C001: {
         })[];
     };
 };
-export default C001;
+export default Feature_C001;

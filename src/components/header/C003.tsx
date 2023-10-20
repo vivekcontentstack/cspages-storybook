@@ -2,7 +2,7 @@ import React from "react";
 import { RequireProps, data } from './defaultValue';
 import { HeaderProps } from "./types";
 
-function Header_C002({ menu = data.menu }: HeaderProps) {
+function Header_C003({ menu = data.menu }: HeaderProps) {
     const [isOpened, setOpen] = React.useState(false)
     return (
         <header className="bg-black border-b border-gray-700">
@@ -52,6 +52,6 @@ function Header_C002({ menu = data.menu }: HeaderProps) {
     )
 }
 
-Header_C002.propRequire = RequireProps
+Header_C003.propRequire = RequireProps
 
-export default Header_C002
+export default Header_C003

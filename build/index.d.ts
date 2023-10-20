@@ -225,6 +225,13 @@ declare namespace Header_C001 {
     };
 }
 
+declare function Header_C002$1({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace Header_C002$1 {
+    var propRequire: {
+        menu: (string | number)[];
+    };
+}
+
 declare function Header_C002({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
 declare namespace Header_C002 {
     var propRequire: {
@@ -233,9 +240,8 @@ declare namespace Header_C002 {
 }
 
 declare const index_d$1_Header_C001: typeof Header_C001;
-declare const index_d$1_Header_C002: typeof Header_C002;
 declare namespace index_d$1 {
-  export { index_d$1_Header_C001 as Header_C001, index_d$1_Header_C002 as Header_C002 };
+  export { index_d$1_Header_C001 as Header_C001, Header_C002$1 as Header_C002, Header_C002 as Header_C003 };
 }
 
 type ProductProps = {

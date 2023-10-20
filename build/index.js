@@ -357,7 +357,7 @@ function Header_C001(_a) {
 }
 Header_C001.propRequire = RequireProps$1;
 
-function Header_C002(_a) {
+function Header_C002$1(_a) {
     var _b = _a.menu, menu = _b === void 0 ? data$1.menu : _b;
     var _c = React.useState(false), isOpened = _c[0], setOpen = _c[1];
     return (jsxRuntime.jsx("header", __assign({ className: "pb-6 bg-white lg:pb-0" }, { children: jsxRuntime.jsxs("div", __assign({ className: "px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" }, { children: [jsxRuntime.jsxs("nav", __assign({ className: "flex items-center justify-between h-16 lg:h-20" }, { children: [jsxRuntime.jsx("div", __assign({ className: "flex-shrink-0" }, { children: jsxRuntime.jsx("a", __assign({ href: "#", title: "", className: "flex" }, { children: jsxRuntime.jsx("img", { className: "w-auto h-8 lg:h-10", src: "https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg", alt: "" }) })) })), jsxRuntime.jsx("button", __assign({ onClick: function () { return setOpen(!isOpened); }, type: "button", className: "inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100" }, { children: !isOpened ? jsxRuntime.jsx("svg", __assign({ className: "block w-6 h-6", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, { children: jsxRuntime.jsx("path", { strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2", d: "M4 8h16M4 16h16" }) }))
@@ -367,12 +367,25 @@ function Header_C002(_a) {
                                     return (jsxRuntime.jsxs("a", __assign({ href: eachFeature.toLowerCase(), title: "", className: "inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600" }, { children: [" ", eachFeature, " "] }), idx));
                                 }) })) })), jsxRuntime.jsx("div", __assign({ className: "px-6 mt-6" }, { children: jsxRuntime.jsx("a", __assign({ href: "#", title: "", className: "inline-flex justify-center px-4 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md tems-center hover:bg-blue-700 focus:bg-blue-700", role: "button" }, { children: " Get started now " })) }))] }))] })) })));
 }
+Header_C002$1.propRequire = RequireProps$1;
+
+function Header_C002(_a) {
+    var _b = _a.menu, menu = _b === void 0 ? data$1.menu : _b;
+    var _c = React.useState(false), isOpened = _c[0], setOpen = _c[1];
+    return (jsxRuntime.jsx("header", __assign({ className: "bg-black border-b border-gray-700" }, { children: jsxRuntime.jsxs("div", __assign({ className: "px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" }, { children: [jsxRuntime.jsxs("nav", __assign({ className: "flex items-center justify-between h-16 lg:h-20" }, { children: [jsxRuntime.jsx("div", __assign({ className: "flex-shrink-0" }, { children: jsxRuntime.jsx("a", __assign({ href: "#", title: "", className: "flex" }, { children: jsxRuntime.jsx("img", { className: "w-auto h-8 lg:h-10", src: "https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt.svg", alt: "" }) })) })), jsxRuntime.jsx("button", __assign({ onClick: function () { return setOpen(function (prev) { return !prev; }); }, type: "button", className: "inline-flex p-2 text-white transition-all duration-200 rounded-md md:hidden focus:bg-gray-800 hover:bg-gray-800" }, { children: jsxRuntime.jsx("svg", __assign({ className: "w-6 h-6", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, { children: jsxRuntime.jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-width": "2", d: "M4 6h16M4 12h16m-7 6h7" }) })) })), jsxRuntime.jsx("div", __assign({ className: "hidden md:flex md:items-center md:space-x-10" }, { children: menu.map((function (each) {
+                                return (jsxRuntime.jsxs("a", __assign({ href: "#", title: "", className: "text-sm font-medium text-white transition-all duration-200 lg:text-base hover:text-opacity-70 focus:text-opacity-70" }, { children: [" ", each, " "] })));
+                            })) }))] })), isOpened &&
+                    jsxRuntime.jsxs("nav", __assign({ className: "min-h-screen px-4 py-10 text-center bg-black md:hidden" }, { children: [jsxRuntime.jsx("button", __assign({ onClick: function () { return setOpen(false); }, type: "button", className: "inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-gray-800 hover:bg-gray-800" }, { children: jsxRuntime.jsx("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", className: "w-6 h-6", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, { children: jsxRuntime.jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-width": "2", d: "M6 18L18 6M6 6l12 12" }) })) })), jsxRuntime.jsx("nav", __assign({ className: "flex flex-col items-center mt-10 space-y-2" }, { children: menu.map(function (each) {
+                                    return (jsxRuntime.jsxs("a", __assign({ href: "#", title: "", className: "py-2 font-medium text-white transition-all duration-200 focus:text-opacity-70" }, { children: [" ", each, " "] })));
+                                }) }))] }))] })) })));
+}
 Header_C002.propRequire = RequireProps$1;
 
 var index$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   Header_C001: Header_C001,
-  Header_C002: Header_C002
+  Header_C002: Header_C002$1,
+  Header_C003: Header_C002
 });
 
 var RequireProps = {

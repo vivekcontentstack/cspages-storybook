@@ -1,31 +1,28 @@
 import { ProductProps } from "./types";
 
 export const RequireProps = {
-    shortTitle:'50',
-    title:'75',
+
     description: '150',
-    items:[{
+    products: [{
         title: '15',
-        subtitle: '15'
     }, 3]
 }
 
 export const data: ProductProps = {
-    title: "Get full access to Celebration",
-    description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-    shortTitle: "130+ Hand Crafted Coded Blocks",
-    items: [
+    title: "Trending Products",
+    description: "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+    products: [
         {
-            title:"130+ Blocks",
-            subtitle:"Ready to use"
+            title: "Table Top Showpiece",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem."
         },
         {
-            title:"14 Pages",
-            subtitle:"Make it live"
+            title: "Table Top Showpiece",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem."
         },
         {
-            title:"Easy Access",
-            subtitle:"Anyone can use"
+            title: "Table Top Showpiece",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem."
         }
     ]
 }

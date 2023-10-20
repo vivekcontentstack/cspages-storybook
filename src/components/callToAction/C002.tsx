@@ -1,7 +1,7 @@
 import { RequireProps, data } from './defaultValue';
 import { CallToActionProps } from './types';
 
-const C002 = ({
+const CallToAction_C002 = ({
     title = data.title,
     description = data.description,
 }: CallToActionProps) =>{
@@ -48,6 +48,6 @@ const C002 = ({
     )
 }
 
-C002.propRequire= RequireProps
+CallToAction_C002.propRequire= RequireProps
 
-export default C002
+export default CallToAction_C002

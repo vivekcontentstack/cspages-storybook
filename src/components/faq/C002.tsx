@@ -1,7 +1,7 @@
 import { RequireProps, data } from './defaultValue';
 import { FaqProps } from './types';
 
-const C002 = ({
+const Faq_C002 = ({
     title = data.title,
     queries = data.queries
 }: FaqProps) =>{
@@ -28,6 +28,6 @@ const C002 = ({
     )
 }
 
-C002.propRequire= RequireProps
+Faq_C002.propRequire= RequireProps
 
-export default C002
+export default Faq_C002

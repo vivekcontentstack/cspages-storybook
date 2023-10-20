@@ -1,8 +1,8 @@
 import { HeaderProps } from "./types";
-declare function C002({ menu }: HeaderProps): import("react/jsx-runtime").JSX.Element;
-declare namespace C002 {
+declare function Header_C002({ menu }: HeaderProps): import("react/jsx-runtime").JSX.Element;
+declare namespace Header_C002 {
     var propRequire: {
         menu: (string | number)[];
     };
 }
-export default C002;
+export default Header_C002;

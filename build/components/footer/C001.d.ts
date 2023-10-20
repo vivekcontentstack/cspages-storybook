@@ -1,5 +1,5 @@
 import { FooterProps } from './types';
-declare const C001: {
+declare const Footer_C001: {
     ({ description, company, help, resource, extraLinks }: FooterProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -9,4 +9,4 @@ declare const C001: {
         description: string;
     };
 };
-export default C001;
+export default Footer_C001;

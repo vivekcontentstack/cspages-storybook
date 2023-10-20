@@ -10,7 +10,7 @@ type FaqProps = {
     contactLink?: string;
 };
 
-declare const C001$4: {
+declare const Faq_C001: {
     ({ title, description, contactLink, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -23,7 +23,7 @@ declare const C001$4: {
     };
 };
 
-declare const C002$5: {
+declare const C002$2: {
     ({ title, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -36,7 +36,7 @@ declare const C002$5: {
     };
 };
 
-declare const C002$4: {
+declare const C002$1: {
     ({ title, description, queries, contactLink }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -49,8 +49,9 @@ declare const C002$4: {
     };
 };
 
+declare const index_d$4_Faq_C001: typeof Faq_C001;
 declare namespace index_d$4 {
-  export { C001$4 as Faq_C001, C002$5 as Faq_C002, C002$4 as Faq_C003 };
+  export { index_d$4_Faq_C001 as Faq_C001, C002$2 as Faq_C002, C002$1 as Faq_C003 };
 }
 
 type FeatureProps = {
@@ -63,7 +64,7 @@ type FeatureProps = {
     }>;
 };
 
-declare const C001$3: {
+declare const C001$1: {
     ({ shortTitle: title, items, }: FeatureProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -76,7 +77,7 @@ declare const C001$3: {
     };
 };
 
-declare const C002$3: {
+declare const Feature_C002: {
     ({ shortTitle, title, description, items, }: FeatureProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -89,8 +90,9 @@ declare const C002$3: {
     };
 };
 
+declare const index_d$3_Feature_C002: typeof Feature_C002;
 declare namespace index_d$3 {
-  export { C001$3 as Feature_C001, C002$3 as Feature_C002 };
+  export { C001$1 as Feature_C001, index_d$3_Feature_C002 as Feature_C002 };
 }
 
 type FooterProps = {
@@ -103,7 +105,7 @@ type FooterProps = {
     extraLinks?: string[];
 };
 
-declare const C001$2: {
+declare const Footer_C001: {
     ({ description, company, help, resource, extraLinks }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -114,7 +116,7 @@ declare const C001$2: {
     };
 };
 
-declare const C002$2: {
+declare const Footer_C002: {
     ({ description, socialLinks, company, help }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -125,7 +127,7 @@ declare const C002$2: {
     };
 };
 
-declare const C003$2: {
+declare const Footer_C003: {
     ({ description, socialLinks, company, help, extraLinks, resource }: FooterProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         company: (string | number)[];
@@ -136,30 +138,35 @@ declare const C003$2: {
     };
 };
 
+declare const index_d$2_Footer_C001: typeof Footer_C001;
+declare const index_d$2_Footer_C002: typeof Footer_C002;
+declare const index_d$2_Footer_C003: typeof Footer_C003;
 declare namespace index_d$2 {
-  export { C001$2 as Footer_C001, C002$2 as Footer_C002, C003$2 as Footer_C003 };
+  export { index_d$2_Footer_C001 as Footer_C001, index_d$2_Footer_C002 as Footer_C002, index_d$2_Footer_C003 as Footer_C003 };
 }
 
 type HeaderProps = {
     menu: string[];
 };
 
-declare function C001$1({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
-declare namespace C001$1 {
+declare function Header_C001({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace Header_C001 {
     var propRequire: {
         menu: (string | number)[];
     };
 }
 
-declare function C002$1({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
-declare namespace C002$1 {
+declare function Header_C002({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
+declare namespace Header_C002 {
     var propRequire: {
         menu: (string | number)[];
     };
 }
 
+declare const index_d$1_Header_C001: typeof Header_C001;
+declare const index_d$1_Header_C002: typeof Header_C002;
 declare namespace index_d$1 {
-  export { C001$1 as Header_C001, C002$1 as Header_C002 };
+  export { index_d$1_Header_C001 as Header_C001, index_d$1_Header_C002 as Header_C002 };
 }
 
 type CallToActionProps = {
@@ -198,7 +205,7 @@ declare const C002: {
     };
 };
 
-declare const C003$1: {
+declare const C003: {
     ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -211,7 +218,7 @@ declare const C003$1: {
     };
 };
 
-declare const C003: {
+declare const CallToAction_C003: {
     ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -225,7 +232,7 @@ declare const C003: {
 };
 
 declare namespace index_d {
-  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003$1 as CallToAction_C003, C003 as CallToAction_C004 };
+  export { C001 as CallToAction_C001, C002 as CallToAction_C002, C003 as CallToAction_C003, CallToAction_C003 as CallToAction_C004 };
 }
 
 export { index_d as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header };

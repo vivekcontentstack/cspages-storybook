@@ -1,5 +1,5 @@
 import { ProductProps } from './types';
-declare const C002: {
+declare const Product_C002: {
     ({ title, description, products }: ProductProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         description: string;
@@ -8,4 +8,4 @@ declare const C002: {
         })[];
     };
 };
-export default C002;
+export default Product_C002;

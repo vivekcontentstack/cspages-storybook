@@ -36,7 +36,7 @@ declare const CallToAction_C002: {
     };
 };
 
-declare const CallToAction_C003$1: {
+declare const CallToAction_C003: {
     ({ title, shortTitle, }: CallToActionProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -49,7 +49,7 @@ declare const CallToAction_C003$1: {
     };
 };
 
-declare const CallToAction_C003: {
+declare const CallToAction_C004: {
     ({ title, description, }: CallToActionProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         shortTitle: string;
@@ -64,8 +64,10 @@ declare const CallToAction_C003: {
 
 declare const index_d$5_CallToAction_C001: typeof CallToAction_C001;
 declare const index_d$5_CallToAction_C002: typeof CallToAction_C002;
+declare const index_d$5_CallToAction_C003: typeof CallToAction_C003;
+declare const index_d$5_CallToAction_C004: typeof CallToAction_C004;
 declare namespace index_d$5 {
-  export { index_d$5_CallToAction_C001 as CallToAction_C001, index_d$5_CallToAction_C002 as CallToAction_C002, CallToAction_C003$1 as CallToAction_C003, CallToAction_C003 as CallToAction_C004 };
+  export { index_d$5_CallToAction_C001 as CallToAction_C001, index_d$5_CallToAction_C002 as CallToAction_C002, index_d$5_CallToAction_C003 as CallToAction_C003, index_d$5_CallToAction_C004 as CallToAction_C004 };
 }
 
 type FaqProps = {
@@ -91,7 +93,7 @@ declare const Faq_C001: {
     };
 };
 
-declare const Faq_C002$1: {
+declare const Faq_C002: {
     ({ title, queries }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -104,7 +106,7 @@ declare const Faq_C002$1: {
     };
 };
 
-declare const Faq_C002: {
+declare const Faq_C003: {
     ({ title, description, queries, contactLink }: FaqProps): react_jsx_runtime.JSX.Element;
     propRequire: {
         queries: (number | {
@@ -118,8 +120,10 @@ declare const Faq_C002: {
 };
 
 declare const index_d$4_Faq_C001: typeof Faq_C001;
+declare const index_d$4_Faq_C002: typeof Faq_C002;
+declare const index_d$4_Faq_C003: typeof Faq_C003;
 declare namespace index_d$4 {
-  export { index_d$4_Faq_C001 as Faq_C001, Faq_C002$1 as Faq_C002, Faq_C002 as Faq_C003 };
+  export { index_d$4_Faq_C001 as Faq_C001, index_d$4_Faq_C002 as Faq_C002, index_d$4_Faq_C003 as Faq_C003 };
 }
 
 type FeatureProps = {

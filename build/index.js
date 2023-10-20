@@ -109,24 +109,24 @@ var CallToAction_C002 = function (_a) {
 };
 CallToAction_C002.propRequire = RequireProps$5;
 
-var CallToAction_C003$1 = function (_a) {
+var CallToAction_C003 = function (_a) {
     var _b = _a.title, title = _b === void 0 ? data$5.title : _b, _c = _a.shortTitle, shortTitle = _c === void 0 ? data$5.shortTitle : _c;
     return (jsxRuntime.jsx("section", __assign({ className: "py-10 bg-gray-100 sm:py-16 lg:py-24" }, { children: jsxRuntime.jsx("div", __assign({ className: "px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl" }, { children: jsxRuntime.jsxs("div", __assign({ className: "text-center" }, { children: [jsxRuntime.jsx("h2", __assign({ className: "text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl" }, { children: title })), jsxRuntime.jsx("p", __assign({ className: "mt-4 text-2xl font-medium" }, { children: shortTitle })), jsxRuntime.jsxs("div", __assign({ className: "flex flex-col items-center justify-center px-16 mt-8 space-y-4 sm:space-y-0 sm:space-x-4 sm:flex-row lg:mt-12 sm:px-0" }, { children: [jsxRuntime.jsx("a", __assign({ href: "#", title: "", className: "inline-flex items-center justify-center w-full px-8 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:w-auto hover:bg-blue-700 focus:bg-blue-700", role: "button" }, { children: " Try For Free " })), jsxRuntime.jsxs("a", __assign({ href: "#", title: "", className: "inline-flex items-center justify-center w-full px-8 py-4 text-base font-semibold text-black transition-all duration-200 bg-transparent border border-black rounded-md sm:w-auto hover:bg-black hover:text-white focus:bg-black focus:text-white", role: "button" }, { children: [jsxRuntime.jsx("svg", __assign({ className: "w-5 h-5 mr-2 -ml-1", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, { children: jsxRuntime.jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-width": "2", d: "M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" }) })), "Contact Sales"] }))] })), jsxRuntime.jsxs("p", __assign({ className: "mt-6 text-base text-black" }, { children: ["Already have an account? ", jsxRuntime.jsx("a", __assign({ href: "#", title: "", className: "text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline" }, { children: "Log in" }))] }))] })) })) })));
 };
-CallToAction_C003$1.propRequire = RequireProps$5;
+CallToAction_C003.propRequire = RequireProps$5;
 
-var CallToAction_C003 = function (_a) {
+var CallToAction_C004 = function (_a) {
     var _b = _a.title, title = _b === void 0 ? data$5.title : _b, _c = _a.description, description = _c === void 0 ? data$5.description : _c;
     return (jsxRuntime.jsxs("section", __assign({ className: "relative py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32" }, { children: [jsxRuntime.jsx("div", __assign({ className: "absolute inset-0" }, { children: jsxRuntime.jsx("img", { className: "object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left", src: "https://cdn.rareblocks.xyz/collection/celebration/images/cta/5/girl-working-on-laptop.jpg", alt: "" }) })), jsxRuntime.jsx("div", { className: "absolute inset-0 hidden bg-gradient-to-r md:block from-black to-transparent" }), jsxRuntime.jsx("div", { className: "absolute inset-0 block bg-black/60 md:hidden" }), jsxRuntime.jsx("div", __assign({ className: "relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl" }, { children: jsxRuntime.jsxs("div", __assign({ className: "text-center md:w-2/3 lg:w-1/2 xl:w-1/3 md:text-left" }, { children: [jsxRuntime.jsx("h2", __assign({ className: "text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl" }, { children: title })), jsxRuntime.jsx("p", __assign({ className: "mt-4 text-base text-gray-200" }, { children: description })), jsxRuntime.jsx("form", __assign({ action: "#", method: "POST", className: "mt-8 lg:mt-12" }, { children: jsxRuntime.jsxs("div", __assign({ className: "flex flex-col items-center sm:flex-row sm:justify-center" }, { children: [jsxRuntime.jsx("div", __assign({ className: "flex-1 w-full min-w-0 px-4 sm:px-0" }, { children: jsxRuntime.jsxs("div", __assign({ className: "relative text-gray-400 focus-within:text-gray-600" }, { children: [jsxRuntime.jsx("label", { htmlFor: "email", className: "sr-only" }), jsxRuntime.jsx("div", __assign({ className: "absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none" }, { children: jsxRuntime.jsx("svg", __assign({ className: "w-5 h-5", xmlns: "http://www.w3.org/2000/svg", fill: "none", viewBox: "0 0 24 24", stroke: "currentColor" }, { children: jsxRuntime.jsx("path", { "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-width": "1.5", d: "M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" }) })) })), jsxRuntime.jsx("input", { type: "email", name: "email", id: "email", placeholder: "Enter email address", className: "block w-full py-4 pl-10 pr-4 text-base text-black placeholder-gray-500 transition-all duration-200 border-gray-200 rounded-md sm:rounded-r-none caret-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600", required: true })] })) })), jsxRuntime.jsx("button", __assign({ type: "submit", className: "inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md sm:mt-0 sm:rounded-l-none sm:w-auto hover:bg-blue-700 focus:bg-blue-700" }, { children: "Get instant access" }))] })) }))] })) }))] })));
 };
-CallToAction_C003.propRequire = RequireProps$5;
+CallToAction_C004.propRequire = RequireProps$5;
 
 var index$5 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   CallToAction_C001: CallToAction_C001,
   CallToAction_C002: CallToAction_C002,
-  CallToAction_C003: CallToAction_C003$1,
-  CallToAction_C004: CallToAction_C003
+  CallToAction_C003: CallToAction_C003,
+  CallToAction_C004: CallToAction_C004
 });
 
 var RequireProps$4 = {
@@ -170,27 +170,27 @@ var Faq_C001 = function (_a) {
 };
 Faq_C001.propRequire = RequireProps$4;
 
-var Faq_C002$1 = function (_a) {
+var Faq_C002 = function (_a) {
     var _b = _a.title, title = _b === void 0 ? data$4.title : _b, _c = _a.queries, queries = _c === void 0 ? data$4.queries : _c;
     return (jsxRuntime.jsx("section", __assign({ className: "py-10 bg-white sm:py-16 lg:py-24" }, { children: jsxRuntime.jsxs("div", __assign({ className: "max-w-6xl px-4 mx-auto sm:px-6 lg:px-8" }, { children: [jsxRuntime.jsx("h2", __assign({ className: "text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl" }, { children: title })), jsxRuntime.jsx("div", __assign({ className: "flow-root mt-12 sm:mt-16" }, { children: jsxRuntime.jsx("div", __assign({ className: "divide-y divide-gray--200 -my-9" }, { children: queries && queries.map(function (each, idx) {
                             return (jsxRuntime.jsxs("div", __assign({ className: "py-9" }, { children: [jsxRuntime.jsx("p", __assign({ className: "text-xl font-semibold text-black" }, { children: each.title })), jsxRuntime.jsx("p", __assign({ className: "mt-3 text-base text-gray-600" }, { children: each.description }))] }), idx));
                         }) })) }))] })) })));
 };
-Faq_C002$1.propRequire = RequireProps$4;
+Faq_C002.propRequire = RequireProps$4;
 
-var Faq_C002 = function (_a) {
+var Faq_C003 = function (_a) {
     var _b = _a.title, title = _b === void 0 ? data$4.title : _b, _c = _a.description, description = _c === void 0 ? data$4.description : _c, _d = _a.queries, queries = _d === void 0 ? data$4.queries : _d, _e = _a.contactLink, contactLink = _e === void 0 ? data$4.contactLink : _e;
     return (jsxRuntime.jsx("section", __assign({ className: "py-10 bg-gray-50 sm:py-16 lg:py-24" }, { children: jsxRuntime.jsxs("div", __assign({ className: "px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl" }, { children: [jsxRuntime.jsxs("div", __assign({ className: "max-w-2xl mx-auto text-center" }, { children: [jsxRuntime.jsx("h2", __assign({ className: "text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl" }, { children: title })), jsxRuntime.jsx("p", __assign({ className: "max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600" }, { children: description }))] })), jsxRuntime.jsx("div", __assign({ className: "max-w-3xl mx-auto mt-8 space-y-4 md:mt-16" }, { children: queries === null || queries === void 0 ? void 0 : queries.map(function (each, idx) {
                         return (jsxRuntime.jsxs("div", __assign({ className: "transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50" }, { children: [jsxRuntime.jsx("button", __assign({ type: "button", className: "flex items-center justify-between w-full px-4 py-5 sm:p-6" }, { children: jsxRuntime.jsxs("span", __assign({ className: "flex text-lg font-semibold text-black" }, { children: [" ", each.title, " "] })) })), jsxRuntime.jsx("div", __assign({ className: "px-4 pb-5 sm:px-6 sm:pb-6" }, { children: jsxRuntime.jsx("p", { children: each.description }) }))] }), idx));
                     }) })), jsxRuntime.jsxs("p", __assign({ className: "text-center text-gray-600 textbase mt-9" }, { children: ["Didn\u2019t find the answer you are looking for? ", jsxRuntime.jsx("a", __assign({ href: contactLink, title: "", className: "font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline" }, { children: "Contact our support" }))] }))] })) })));
 };
-Faq_C002.propRequire = RequireProps$4;
+Faq_C003.propRequire = RequireProps$4;
 
 var index$4 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   Faq_C001: Faq_C001,
-  Faq_C002: Faq_C002$1,
-  Faq_C003: Faq_C002
+  Faq_C002: Faq_C002,
+  Faq_C003: Faq_C003
 });
 
 var RequireProps$3 = {

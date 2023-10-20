@@ -1,5 +1,5 @@
 import { FaqProps } from './types';
-declare const Faq_C002: {
+declare const Faq_C003: {
     ({ title, description, queries, contactLink }: FaqProps): import("react/jsx-runtime").JSX.Element;
     propRequire: {
         queries: (number | {
@@ -11,4 +11,4 @@ declare const Faq_C002: {
         contactLink: string;
     };
 };
-export default Faq_C002;
+export default Faq_C003;

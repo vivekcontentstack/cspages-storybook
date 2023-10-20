@@ -18,12 +18,14 @@ export default [
         format: "cjs",
         sourcemap: true,
         exports: "named",
+        minifyInternalExports: false
       },
       {
         file: packageJson.module,
         format: "esm",
         sourcemap: true,
         exports: "named",
+        minifyInternalExports: false
       },
     ],
     plugins: [
@@ -45,7 +47,7 @@ export default [
   },
   {
     input: "build/index.d.ts",
-    output: [{ file: "build/index.d.ts", format: "es" }],
+    output: [{ file: "build/index.d.ts", format: "es", minifyInternalExports: false }],
     plugins: [dts()],
     external: ["react", "react-dom", /\.css$/],
   },

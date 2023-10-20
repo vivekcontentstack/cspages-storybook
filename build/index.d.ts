@@ -255,7 +255,7 @@ declare namespace Header_C003 {
     var propRequire: {
         menu: (string | number)[];
     };
-    var name: string;
+    var cname: string;
 }
 
 declare const index_d$1_Header_C001: typeof Header_C001;

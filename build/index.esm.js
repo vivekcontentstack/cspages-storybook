@@ -392,7 +392,7 @@ function Header_C003(_a) {
                                 }) }))] }))] })) })));
 }
 Header_C003.propRequire = RequireProps$1;
-Header_C003.name = "Header_C003";
+Header_C003.cname = "Header_C003";
 
 var index$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,

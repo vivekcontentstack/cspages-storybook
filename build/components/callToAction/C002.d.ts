@@ -10,5 +10,6 @@ declare const CallToAction_C002: {
             subtitle: string;
         })[];
     };
+    name: string;
 };
 export default CallToAction_C002;

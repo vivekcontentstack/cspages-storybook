@@ -21,6 +21,7 @@ declare const CallToAction_C001: {
             subtitle: string;
         })[];
     };
+    name: string;
 };
 
 declare const CallToAction_C002: {
@@ -34,6 +35,7 @@ declare const CallToAction_C002: {
             subtitle: string;
         })[];
     };
+    name: string;
 };
 
 declare const CallToAction_C003: {
@@ -47,6 +49,7 @@ declare const CallToAction_C003: {
             subtitle: string;
         })[];
     };
+    name: string;
 };
 
 declare const CallToAction_C004: {
@@ -60,6 +63,7 @@ declare const CallToAction_C004: {
             subtitle: string;
         })[];
     };
+    name: string;
 };
 
 declare const index_d$5_CallToAction_C001: typeof CallToAction_C001;

@@ -75,5 +75,6 @@ const CallToAction_C001 = ({
 }
 
 CallToAction_C001.propRequire = RequireProps
+CallToAction_C001.name = "CallToAction"
 
 export default CallToAction_C001

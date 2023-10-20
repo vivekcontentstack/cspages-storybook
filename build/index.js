@@ -440,5 +440,5 @@ exports.Faq = index$4;
 exports.Feature = index$3;
 exports.Footer = index$2;
 exports.Header = index$1;
-exports.Products = index;
+exports.Product = index;
 //# sourceMappingURL=index.js.map

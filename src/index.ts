@@ -3,4 +3,4 @@ export * as Faq from "./components/faq";
 export * as Feature from "./components/feature";
 export * as Footer from "./components/footer";
 export * as Header from "./components/header";
-export * as Products from "./components/product";
+export * as Product from "./components/product";

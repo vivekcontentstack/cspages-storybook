@@ -285,4 +285,4 @@ declare namespace index_d {
   export { index_d_Product_C001 as Product_C001, index_d_Product_C002 as Product_C002 };
 }
 
-export { index_d$5 as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header, index_d as Products };
+export { index_d$5 as CallToAction, index_d$4 as Faq, index_d$3 as Feature, index_d$2 as Footer, index_d$1 as Header, index_d as Product };

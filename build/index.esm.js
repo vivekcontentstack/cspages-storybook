@@ -433,5 +433,5 @@ var index = /*#__PURE__*/Object.freeze({
   Product_C002: Product_C002
 });
 
-export { index$5 as CallToAction, index$4 as Faq, index$3 as Feature, index$2 as Footer, index$1 as Header, index as Products };
+export { index$5 as CallToAction, index$4 as Faq, index$3 as Feature, index$2 as Footer, index$1 as Header, index as Product };
 //# sourceMappingURL=index.esm.js.map

@@ -35,10 +35,10 @@ const Product_C001 = ({
                         </div>
                         <div className="p-6">
                           <a href="product-details.html" className="mb-4 block text-lg font-semibold text-black hover:text-primary xs:text-xl lg:text-lg xl:text-xl">
-                            {title}
+                            {each.title}
                           </a>
                           <p className="text-base font-medium text-body-color">
-                            {description}
+                            {each.description}
                           </p>
                         </div>
                         <div className="flex justify-between border-t border-[#e7e7e7]">

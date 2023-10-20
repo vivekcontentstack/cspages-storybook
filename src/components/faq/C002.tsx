@@ -29,5 +29,6 @@ const Faq_C002 = ({
 }
 
 Faq_C002.propRequire= RequireProps
+Faq_C002.cname="Faq_C002"
 
 export default Faq_C002

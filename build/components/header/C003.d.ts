@@ -4,5 +4,6 @@ declare namespace Header_C003 {
     var propRequire: {
         menu: (string | number)[];
     };
+    var name: string;
 }
 export default Header_C003;

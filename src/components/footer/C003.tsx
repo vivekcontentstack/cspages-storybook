@@ -128,5 +128,5 @@ const Footer_C003 = ({
     )
 }
 Footer_C003.propRequire = RequireProps
-
+Footer_C003.cname = "Footer_C003"
 export default Footer_C003

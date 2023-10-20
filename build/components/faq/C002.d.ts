@@ -10,5 +10,6 @@ declare const Faq_C002: {
         description: string;
         contactLink: string;
     };
+    cname: string;
 };
 export default Faq_C002;

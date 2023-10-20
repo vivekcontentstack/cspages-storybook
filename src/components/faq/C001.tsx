@@ -43,5 +43,6 @@ const Faq_C001 = ({
 }
 
 Faq_C001.propRequire = RequireProps
+Faq_C001.cname= "Faq_C001"
 
 export default Faq_C001

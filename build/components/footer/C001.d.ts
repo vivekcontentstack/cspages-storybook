@@ -8,5 +8,6 @@ declare const Footer_C001: {
         help: (string | number)[];
         description: string;
     };
+    cname: string;
 };
 export default Footer_C001;

@@ -34,5 +34,6 @@ const Feature_C001 = ({
 }
 
 Feature_C001.propRequire = RequireProps
+Feature_C001.cname = "Feature_C001"
 
 export default Feature_C001

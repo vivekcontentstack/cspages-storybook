@@ -93,5 +93,6 @@ const Product_C001 = ({
 }
 
 Product_C001.propRequire = RequireProps
+Product_C001.cname ="Product_C001"
 
 export default Product_C001

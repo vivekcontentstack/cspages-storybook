@@ -95,6 +95,7 @@ declare const Faq_C001: {
         description: string;
         contactLink: string;
     };
+    cname: string;
 };
 
 declare const Faq_C002: {
@@ -108,6 +109,7 @@ declare const Faq_C002: {
         description: string;
         contactLink: string;
     };
+    cname: string;
 };
 
 declare const Faq_C003: {
@@ -121,6 +123,7 @@ declare const Faq_C003: {
         description: string;
         contactLink: string;
     };
+    cname: string;
 };
 
 declare const index_d$4_Faq_C001: typeof Faq_C001;
@@ -151,6 +154,7 @@ declare const Feature_C001: {
             description: string;
         })[];
     };
+    cname: string;
 };
 
 declare const Feature_C002: {
@@ -164,6 +168,7 @@ declare const Feature_C002: {
             description: string;
         })[];
     };
+    cname: string;
 };
 
 declare const index_d$3_Feature_C001: typeof Feature_C001;
@@ -191,6 +196,7 @@ declare const Footer_C001: {
         help: (string | number)[];
         description: string;
     };
+    cname: string;
 };
 
 declare const Footer_C002: {
@@ -202,6 +208,7 @@ declare const Footer_C002: {
         help: (string | number)[];
         description: string;
     };
+    cname: string;
 };
 
 declare const Footer_C003: {
@@ -213,6 +220,7 @@ declare const Footer_C003: {
         help: (string | number)[];
         description: string;
     };
+    cname: string;
 };
 
 declare const index_d$2_Footer_C001: typeof Footer_C001;
@@ -231,6 +239,7 @@ declare namespace Header_C001 {
     var propRequire: {
         menu: (string | number)[];
     };
+    var cname: string;
 }
 
 declare function Header_C002({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
@@ -238,6 +247,7 @@ declare namespace Header_C002 {
     var propRequire: {
         menu: (string | number)[];
     };
+    var cname: string;
 }
 
 declare function Header_C003({ menu }: HeaderProps): react_jsx_runtime.JSX.Element;
@@ -245,6 +255,7 @@ declare namespace Header_C003 {
     var propRequire: {
         menu: (string | number)[];
     };
+    var name: string;
 }
 
 declare const index_d$1_Header_C001: typeof Header_C001;
@@ -271,6 +282,7 @@ declare const Product_C001: {
             title: string;
         })[];
     };
+    cname: string;
 };
 
 declare const Product_C002: {
@@ -281,6 +293,7 @@ declare const Product_C002: {
             title: string;
         })[];
     };
+    cname: string;
 };
 
 declare const index_d_Product_C001: typeof Product_C001;

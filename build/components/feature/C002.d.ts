@@ -10,5 +10,6 @@ declare const Feature_C002: {
             description: string;
         })[];
     };
+    cname: string;
 };
 export default Feature_C002;

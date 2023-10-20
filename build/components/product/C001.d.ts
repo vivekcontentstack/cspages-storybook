@@ -7,5 +7,6 @@ declare const Product_C001: {
             title: string;
         })[];
     };
+    cname: string;
 };
 export default Product_C001;

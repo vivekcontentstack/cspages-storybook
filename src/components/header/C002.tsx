@@ -56,5 +56,5 @@ function Header_C002({ menu = data.menu }: HeaderProps) {
 }
 
 Header_C002.propRequire= RequireProps
-
+Header_C002.cname ="Header_C002"
 export default Header_C002

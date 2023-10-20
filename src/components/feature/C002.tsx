@@ -1,7 +1,7 @@
 import { RequireProps, data } from './defaultValue';
 import { FeatureProps } from './types';
 
-const C002 = ({
+const Feature_C002 = ({
     shortTitle = data.shortTitle,
     title = data.title,
     description = data.description,
@@ -38,6 +38,6 @@ const C002 = ({
     )
 }
 
-C002.propRequire = RequireProps
+Feature_C002.propRequire = RequireProps
 
-export default C002
+export default Feature_C002

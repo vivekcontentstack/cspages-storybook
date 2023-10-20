@@ -1,7 +1,7 @@
 import { RequireProps, data } from './defaultValue';
 import { FooterProps } from './types';
 
-const C002 = ({
+const Footer_C002 = ({
     description = data.description,
     socialLinks = data.socialLinks,
     company = data.company,
@@ -108,6 +108,6 @@ const C002 = ({
     )
 }
 
-C002.propRequire = RequireProps
+Footer_C002.propRequire = RequireProps
 
-export default C002
+export default Footer_C002

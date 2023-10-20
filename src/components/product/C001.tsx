@@ -1,7 +1,7 @@
 import { RequireProps, data } from './defaultValue';
 import { ProductProps } from './types';
 
-const C001 = ({
+const Product_C001 = ({
   title = data.title,
   description = data.description,
   products = data.products
@@ -92,6 +92,6 @@ const C001 = ({
   )
 }
 
-C001.propRequire = RequireProps
+Product_C001.propRequire = RequireProps
 
-export default C001
+export default Product_C001
